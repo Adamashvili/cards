@@ -24,7 +24,7 @@ function App() {
       <Card />
       <section>
       {list.map((item) => (
-        <SecondCard item={item}/>
+        <SecondCard key={item.id} item={item}/>
       ))}
       </section>
       
