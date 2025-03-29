@@ -1,0 +1,13 @@
+.myName {
+  color: blue;
+  font-size: 25px;
+  font-family: monospace;
+  text-shadow: 1px 1px 3px black;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
